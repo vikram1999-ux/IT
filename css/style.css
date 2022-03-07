@@ -1,0 +1,162 @@
+/************************************************* Header ********************************************************************/
+#Header + main{margin-top:189px;}
+#Header .list-inline a{font-size:17px;color:#3b3b3b !important;} 
+#Header .list-inline a:hover{color:#f7c221 !important;}
+#Header .list-inline-item:not(:last-child) {margin-right:42px;} #Header .me-xxl-6{margin-right:31px;}
+ #Header .border-bottom{border-bottom:2px solid #353686 !important; margin-top: 1px;}
+
+#Header .input-group{width:280px;} 
+#Header .input-group .form-control{background:#fff; border:solid 1px #002b98; border-left:0px; border-radius:0px; box-shadow:none; color:#000; font-size:12px; height:40px; font-family: 'Open Sans', sans-serif; padding-left: 8px;} 
+#Header .input-group .btn{background:#fff; border-radius:0px; border-right:0px !important; border:solid 1px #002b98; color:#4c4c4a; font-size:15px; padding:8px 0px 8px 20px; height:40px;}
+#Header .input-group .btn:hover{background:#fff;color:#002b98;}
+#Header .form-control::placeholder{color:#000;} 
+
+/********** Main Banner **************************************************************************************************/
+.MainBanner .carousel-caption {z-index:99;display:flex;justify-content:center;align-items:center;margin:auto;top:0;left:0;bottom:0;right:0;}
+/********** Transport **************************************************************************************************/
+#Transport .pe-xl-6 {padding-right: 32px;}
+#Transport .Block::after {border-bottom: solid 150px #9fc6e2;content: '';position: absolute;left: 30px;right: 30px; bottom:-50px; z-index: -1;}
+#Transport .position {left: -15px; position:relative;}
+#Transport .bg-light {background: #9fc6e2 !important;padding-left: 37px;padding-top: 70px;padding-right: 0px;position: relative;top: -32px;z-index: -1;left: 25px;margin-right: 25px; padding-bottom: 60px; height: 355px;} 
+/********** Telecom **************************************************************************************************/
+#Telecom .card {background-color: transparent !important;border: 0px !important;border-radius: 0px !important;}
+#Telecom .card-title{font-size:16px;} #Telecom .card-text{font-size:13px;}
+#Telecom .card-body{padding: 45px 0px 0px 0px;} #Telecom p{margin-bottom: 15px;} #Telecom .card-text{height: 62px;} #Telecom .fs-14{line-height:1.7 !important; height: 175px;}
+
+#Telecom .Slider .slideshow .isItem {white-space:normal; vertical-align:top;}
+#Telecom .Slider .cycle-prev {position: absolute;cursor: pointer;bottom:-100px;z-index:1; right:45px;}
+#Telecom .Slider .cycle-next {position: absolute;cursor: pointer;bottom:-100px;z-index:1; right:0px;}
+
+/********** Industry **************************************************************************************************/
+#Industry .Block::after {border-bottom: solid 141px #9fc6e2;content: '';position: absolute;left: 65px;right: 50px; bottom:-15px; z-index: -1;}
+#Industry .position {position:relative;}
+#Industry .bg-light {
+    background: #9fc6e2 !important;
+    padding-left: 28px;
+    padding-top: 200px;
+    padding-right: 0px;
+    position: relative;
+    top: -140px;
+    z-index: -1;
+    left: 18px;
+    margin-right: 16px;
+    padding-bottom: 60px;
+	height: 462px;
+}      #Industry .Border-bottom {border-top: 4px solid #333;border-bottom: 1px solid #d1d1d1;height: 7px;}
+/********** Experts **************************************************************************************************/
+
+#Experts .my-100{margin-top: -60px !important;}
+#Experts .Slider .slideshow .isItem {white-space:normal; vertical-align:top;}
+#Experts .Slider .cycle-prev {position: absolute;cursor: pointer;bottom:-70px;z-index:99; right:58px;}
+#Experts .Slider .cycle-next {position: absolute;cursor: pointer;bottom:-70px;z-index:99; right:15px;}
+/********** Technology **************************************************************************************************/
+#Technology .Block {background: #f7c221;padding: 29px 16px 0px 16px;height: 254px; }
+
+#Technology .bor {border-top: 4px solid #333;border-bottom: 1px solid #d1d1d1;height: 7px;}	
+#Technology .pr-xxl-6{padding-right: 10px !important;} #Technology .pr-xxl-7{padding-right: 15px !important;}	
+
+
+/********** Experts **************************************************************************************************/
+
+#Events .Block::after {border-top: solid 337px #a2d9f7;content: '';position: absolute;  z-index: -1; bottom:15px; right:0px; left:0px; }
+#Events .position{position:relative;} #Events .custom-width{width: 90% !important;}
+#Events .Slider .slideshow .isItem {white-space:normal; vertical-align:top;}
+#Events .Slider .cycle-prev {position: absolute;cursor: pointer;bottom:0px;z-index:99; right:58px;}
+#Events .Slider .cycle-next {position: absolute;cursor: pointer;bottom:0px;z-index:99; right:15px;}
+#Events .Border-bottom {border-top: 4px solid #333;border-bottom: 1px solid #d1d1d1;height: 7px;}
+
+.Listing {padding:0px; margin:0px; list-style-type:none;}
+.Listing li{color:#fff; background:#7db916 url(../images/icon1.png) no-repeat 1.1em 1.45em; padding:14px 0 12px 45px; margin:0 0 1px; border-radius:6px;}
+.Listing li a{color:#fff;} .Listing li a:hover{color:#000;}
+
+
+/*************************************************************************************************************/
+.container-new{max-width:1920px !important; padding-right:15px; padding-left:15px;margin-right: auto;margin-left: auto;}
+.container-fluid{max-width:1430px !important;}
+.container{max-width:1170px !important;}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 1025px) {
+	.navbar .nav-item .dropdown-menu{ display:none;}
+	.navbar .nav-item:hover .nav-link{ color:#fff;}
+	.navbar .nav-item:hover .dropdown-menu{ display:block;}
+	.navbar .nav-item .dropdown-menu{ margin-top:0;}
+}	
+/* ============ desktop view .end// ============ */
+
+@media (min-width:992px) {
+#Header {top:0px; -webkit-transition:0.5s; -moz-transition:0.5s; -ms-transition:0.5s; transition:0.5s;}
+.shrink {background:rgba(225,239,248,.95); box-shadow:0px 5px 12px rgba(0,0,0,.5); z-index:999;}
+.Logo img {max-height:85px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.shrink .Logo img {max-height:85px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.Logo{padding-top:20px; padding-bottom:33px;} .shrink .Logo{padding-top:10px !important; padding-bottom:10px !important;}
+.gx-xxl-6 {margin-left:-0px!important;margin-right:-0px!important;}
+.gx-xxl-6 div[class^="col"]{padding-left:0px!important;padding-right:0px!important;}
+#Technology .Border {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-left: 25px;
+    left: -12px;
+    position: absolute;
+    z-index: -1;
+    right: 0px;
+    padding-right: 35px;
+    height: 194px;
+    margin-top: 25px;
+    padding-top: 28px;}
+	#Technology .Border-bottom{border-bottom: 1px solid #ccc;height: 162px;position: absolute;left: -12px;z-index: -1;padding-left: 22px;}
+	
+}
+
+.gx-xxl-7 {margin-left:-5px!important;margin-right:-5px!important;}
+.gx-xxl-7 div[class^="col"]{padding-left:5px!important;padding-right:5px!important;}
+.gx-xxl-8 {margin-left:-4px!important;margin-right:-4px!important;}
+.gx-xxl-8 div[class^="col"]{padding-left:4px!important;padding-right:4px!important;}
+.gx-xxl-9 {margin-left:-8px!important;margin-right:-8px!important;}
+.gx-xxl-9 div[class^="col"]{padding-left:8px!important;padding-right:8px!important;}
+
+@media (min-width: 1920px) {
+
+}
+
+@media (min-width: 1600px) {
+
+#Transport .mt-0 {margin-top: -10px !important;}
+}
+
+@media (min-width: 1200px) {
+.gx-xxl-10 {margin-left:-4px!important;margin-right:-4px!important;}
+.gx-xxl-10 div[class^="col"]{padding-left:4px!important;padding-right:4px!important;}
+#Transport .mt-0 {margin-top: -10px !important;}
+#Experts .Border{    border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;height: 179px;padding-top: 17px;margin-bottom: 17px; width: 540px;} 
+#Experts .Border-bottom{ border-bottom: 1px solid #ccc;height: 165px;margin-bottom: 17px; width: 540px;}
+}
+
+
+@media (min-width: 1199.98px) and (max-width: 1359.98px) {}
+
+
+/*@include media-breakpoint-between(md, xl) { ... }*/
+@media (min-width: 991.98px) and (max-width: 1199.98px){#Header .input-group {width: 230px !important;} .navbar .navbar-nav .nav-link {font-size: 12px !important;} h2, .h2 {font-size: 20px !important;} #Transport .bg-light {padding-left: 15px;padding-right: 15px;top: -32px;left: 25px;} #Telecom .Slider .cycle-prev {bottom: -65px;} #Telecom .Slider .cycle-next {bottom: -65px;} #Industry .Block::after {left: 50px;right: 50px;} #Industry .bg-light {position: static;height: 280px;padding: 30px 15px; margin-right: 0px;} #Experts .my-100 {
+margin-top: 80px;} #Industry .fs-18 {font-size: 16px !important;} #Experts .my-100{margin-top: 80px !important;} #Events h1, .h1 {font-size: 22px;}
+#Experts .Border{    border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;height: 179px;padding-top: 17px;margin-bottom: 17px; width: 470px;} 
+#Experts .Border-bottom{ border-bottom: 1px solid #ccc;height: 165px;margin-bottom: 17px; width: 470px;}
+}
+
+
+/*For example the @include media-breakpoint-only(md) { ... } will result in :*/
+@media (min-width: 768px) and (max-width: 991.98px) {.Logo{padding-top:20px; padding-bottom:20px;} #Header{position:static;} #Header + main{margin-top:0px;}  h2, .h2 {font-size: 18px !important;} #Transport .position {left: 0;} #Transport .bg-light {position: static;margin-right: 0px;height: 200px;padding: 25px 15px;} #Transport .mt-6{margin-top:80px;}#Transport .fs-17 {font-size: 15px !important;} #Telecom .card-title {font-size: 15px;} #Telecom .Slider .cycle-prev {bottom: -50px;} #Telecom .Slider .cycle-next {bottom: -50px;}#Industry .Block::after {left: 0px;right: 0px;bottom: -15px;} #Industry .bg-light {position: static;margin-right: 0px;height: 220px;padding: 30px 15px;} #Industry .img-custom{ width: 100% !important;} #Transport .img-custom{ width: 100% !important;} #Industry .mt-10 {margin-top: 60px;} #Experts .my-100 {margin-top: 40px !important;} #Experts h4, .h4 {font-size: 14px;} #Telecom .card-text {height: 80px;} #Experts .Border{    border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;height: 179px;padding-top: 17px;margin-bottom: 17px;} 
+#Experts .Border{    border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;height: 179px;padding-top: 17px;margin-bottom: 17px; width: 370px;} 
+#Experts .Border-bottom{ border-bottom: 1px solid #ccc;height: 165px;margin-bottom: 17px; width: 370px;}}
+ 
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width:767.98px) {.Logo{padding-top:20px; padding-bottom:20px;} #Header{position:static;} #Header + main{margin-top:0px;}  h2, .h2 {font-size: 15px !important;} #Transport .position {left: 0;} #Transport .bg-light {position: static;margin-right: 0px;height: 200px;padding: 25px 15px;} #Transport .mt-6{margin-top:80px;}#Transport .fs-17 {font-size: 15px !important;} #Telecom .card-title {font-size: 15px;} #Telecom .Slider .cycle-prev {bottom: -50px;} #Telecom .Slider .cycle-next {bottom: -50px;}#Industry .Block::after {left: 0px;right: 0px;bottom: -15px;} #Industry .bg-light {position: static;margin-right: 0px;height: 250px;padding: 30px 15px;} #Industry .img-custom{ width: 100% !important;} #Transport .img-custom{ width: 100% !important;} #Industry .mt-10 {margin-top: 60px;} #Experts .my-100 {margin-top: 70px !important;} #Experts h4, .h4 {font-size: 14px;} #Telecom .card-text {height: 80px;} #Experts .Slider .cycle-prev {bottom: -20px;} #Experts .Slider .cycle-next {bottom: -20px;}
+
+}
+
+@media (max-width:575.98px) {#Transport .custom-img{width:90%;} #Transport .Block::after {left: 0px;right: 0px;} #Telecom .card-text {height: 50px !important;} #Telecom .fs-14 {height: auto !important;}#Industry .custom{width:90% !important;}
+}
+/* X-Small devices (portrait phones, less than 576px) */

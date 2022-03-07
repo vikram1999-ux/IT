@@ -1,0 +1,43 @@
+
+.navbar .navbar-nav .nav-link {color:#4c4c4a; font-size:15px; border-top-left-radius: 8px;border-top-right-radius: 8px;padding: 12px 19px;
+ background: rgb(145,189,222);
+background: linear-gradient(0deg, rgba(145,189,222,1) 54%, rgba(164,203,232,1) 46%);  box-shadow: inset 0px 6px 2px -3px rgba(189, 225, 253, 0.9);}
+.navbar .navbar-nav .active>.nav-link, .navbar .navbar-nav .nav-link.active, .navbar .navbar-nav .nav-link.show, .navbar .navbar-nav .show>.nav-link,.navbar .navbar-nav .nav-link:focus, .navbar .navbar-nav .nav-link:hover {color:#353686 !important;}
+.navbar .nav-item .nav-link:hover,.navbar .nav-item .nav-link:focus,.navbar .nav-item .nav-link.active{color:#353686 !important;}
+
+/*******************************Dropdown Menu*****************************************/
+.dropdown-menu {padding:8px 8px; margin:0; min-width:13rem; background-color:#fff;}
+.dropdown-item {color:#636567; padding:4px 10px 4px 10px;font-size:14px;}
+.dropdown-item:focus, .dropdown-item:hover {background-color:transparent; color:#f69322;}
+.dropdown-menu li+li .dropdown-item {border-top:1px solid #ccc;}
+
+/*******************************Ipad Device L***************************************/
+@media (min-width: 1920px) {}
+@media (min-width: 1199.98px) and (max-width: 1359.98px) {}
+@media (min-width: 991.98px) and (max-width: 1199.98px){}
+
+/******************************* Max-width-768 ***************************************/
+@media (min-width:768px) {
+.navbar-nav>li+li {margin-left:3px;}
+}
+
+/******************************* Ipad Device W ***************************************/
+@media (min-width:768px) and (max-width:991.98px) {
+}
+
+/******************************* Max-width-640 ***************************************/
+@media (max-width:767.98px) {
+navbar-nav>li+li {margin-left:0px !important;}
+.navbar-toggler{position:absolute !important;top:-43px !important;right:0px !important;background-color:#9fc6e2 !important; outline:none !important;} .navbar .nav-item .nav-link{padding:5px 15px;border-radius:0px;}
+.navbar {margin-top:0px;} .navbar .nav-item {border-bottom:solid 1px #e1eff8; text-align:center;} .navbar-toggler-icon{width:1em; height:1em; color:#FFF;} .navbar-nav{margin-top:20px;}
+
+}
+/******************************* Mobile ***************************************/
+@media (max-width:575.98px) {.navbar-toggler{top:-62px !important;}
+
+}
+@media (max-width: 479.98px) {
+	
+}
+
+

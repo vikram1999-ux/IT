@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Taviraj:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+html {scroll-behavior:smooth;}
+body {background:#e1eff8; color:#000; font-family: 'Open Sans', sans-serif; font-size:16px; font-weight:400; line-height:1.6;}
+
+.font-open {font-family: 'Open Sans', sans-serif;}
+.font-taviraj {font-family: 'Taviraj', serif;}
+    
+*, *:focus {outline:none !important; transition:all 0.3s ease 0s;}
+
+a {text-decoration:none !important; color:#000;} a:hover{color:#f7c221;}
+p{margin-bottom:25px;} .nomrgn{margin:0px !important;}
+
+.Bor:after {border-bottom:4px solid #333333; content:"";display:block; margin:0 auto 20px auto; padding-bottom:15px; width:61px;}
+.Bor1:after {border-bottom:4px solid #333333; content:"";display:block; margin:0 0px 20px 0px; padding-bottom:5px; width:61px;}
+.Bor2:after {border-bottom:4px solid #333333; content:"";display:block; margin:0 auto 20px auto; padding-bottom:3px; width:100px;}
+.Bor3:after {border-bottom:4px solid #333333; content:"";display:block; margin:0 0px 20px 0px; padding-bottom:5px; width:70px;}
+
+.breadcrumb{color:#818181; margin:0px; background-color:transparent;padding:0 0 15px; font-size:12px; border-bottom:solid 1px #dddddd;}
+.breadcrumb>li+li:before{content:"\27A4";color:#818181; margin:0 10px;}
+.breadcrumb a{color:#487201;}
+
+/******* Helpers ********************************************************************/
+.ImgFade{background-color:#000; border-radius:10px !important;}
+.ImgFade img{opacity: 0.3; filter: alpha(opacity=30); border-radius:10px !important; /* For IE8 and earlier */}
+.box-shadow{box-shadow:10px 10px 20px rgba(0,0,0,0.1);}
+
+hr{background-color:#fff !important;}
+
+/***************************/
+.btn{moz-transition: all 0.3s ease-in; -webkit-transition: all 0.3s ease-in; -o-transition: all 0.3s ease-in; transition: all 0.3s ease-in;text-decoration:none !important; font-weight:500; font-size:13px; padding:18px 31px; font-family: 'Raleway', sans-serif; vertical-align:top; text-transform:uppercase; letter-spacing:.1em; border-radius:0px; box-shadow:none !important;}
+
+
+.btn-outline-dark{background:transparent !important; border-color:#b2b2b2 !important;color:#000 !important;}
+.btn-outline-dark:hover,.btn-outline-dark.focus,.btn-outline-dark:focus{background-color:#000 !important; border-color:#000 !important;color:#fff !important;}
+
+
+.btn.btn-sm{padding:15px 35px !important;}
+/*****************************/
+.fw-normal{font-weight:400 !important;}
+.fw-medium{font-weight:500 !important;}
+.fw-semi{font-weight:600 !important;}
+.fw-bold{font-weight:700 !important;}
+
+.fs-11{font-size:11px !important;}
+.fs-12{font-size:12px !important;}
+.fs-14{font-size:14px !important;}
+.fs-15{font-size:15px !important;}
+.fs-17{font-size:17px !important;}
+.fs-18{font-size:18px !important;}
+
+.lh-1{line-height:1 !important;}
+.lh-15{line-height:1.5 !important;}
+
+.ls-1{letter-spacing:.1em !important;}
+.ls-140{letter-spacing:.14em !important;}
+
+.bg-dark {background:#333333 !important;}
+
+/*****************************/
+.text-secondary {color:#4c4c4a !important;}
+.text-dark {color:#333333 !important;}
+.text-primary {color:#39393b !important;}
+
+/*****************************/
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {}
+h1, .h1 {font-size:32px;}
+h2, .h2 {font-size:24px;}
+h3, .h3 {font-size:20px;}
+h4, .h4 {font-size:18px;}
+h5, .h5 {font-size:12px;}
+
+/*******************************************************************/
+input.form-control,input.form-control:focus {font-size: 13px; height: calc(2.5em + 1.2rem + 2px); box-shadow:none;font-family: 'Source Sans Pro', sans-serif;}
+select.form-control {font-size:13px; height:calc(1.5em + 1.2rem + 2px);}
+textarea.form-control {font-size:13px; resize:none;}
+textarea.form-control:not([rows]) {height:136px;}
+.form-control::-moz-placeholder {color:#272727; opacity: 1;}
+
+/**************************************************************/
+.MainBanner .mask{position:absolute; top:0px; right:0%; left:0%; z-index:99; background:url(../images/bnr_shadow.png) repeat-x top; min-height:100%;}
+.MainBanner .carousel-indicators {z-index:999; bottom:-60px;}
+.MainBanner .carousel-indicators li {background-color:transparent; opacity:1;border-radius:50%; width:16px; height:16px; border:solid 1px #a2b5d1;} 
+.MainBanner .carousel-indicators .active {background-color:#a2b5d1 !important;width:16px; height:16px;}
+
+/***********************************************************************/
+ul.orange li {color: #3c3c3c;list-style: none;position: relative;}
+ul.orange li::before {color: #f69322; content: "\2022"; font-size:1.5em; position: absolute; top: -8px; left: -20px;}
+
+/********** Back To Top Button ***************************************************************************************************/
+#scroll {position:fixed; right:10px; bottom:10px; z-index:99999; cursor:pointer; width:45px; height:45px; text-align:center; line-height:43px; background:#91bdde; color:#fff !important;}
+#scroll:hover {opacity:.7;}
